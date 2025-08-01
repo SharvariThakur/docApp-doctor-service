@@ -108,7 +108,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>3.3.5</version>
 				<configuration>
-					<mainClass>com.example.doctorservice.DoctorServiceApplication</mainClass>
+					<mainClass>com.doctorapp.doctor_service.DoctorServiceApplication</mainClass>
 				</configuration>
 				<executions>
 					<execution>
