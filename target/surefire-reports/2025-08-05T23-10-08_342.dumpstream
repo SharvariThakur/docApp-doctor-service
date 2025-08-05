@@ -1,5 +1,0 @@
-# Created at 2025-08-05T23:10:08.732
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Projects\Sharvari\doctorApp\docApp-doctor-service\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
