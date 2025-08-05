@@ -22,22 +22,22 @@ public class DoctorService {
         return doctorRepository.save(doctor);
     }
 
-    @Cacheable(value = "doctor", key = "'getAll'")
+    //@Cacheable(value = "doctor", key = "'getAll'")
     public List<Doctor> getAllDoctors() {
         return doctorRepository.findAll();
     }
 
-    @Cacheable(value = "doctor", key = "#id")
+    //@Cacheable(value = "doctor", key = "#id")
     public Optional<Doctor> getDoctorById(Long id) {
         return doctorRepository.findById(id);
     }
 
-    @CacheEvict(value = "doctor", key = "#id")
+    //@CacheEvict(value = "doctor", key = "#id")
     public void deleteDoctor(Long id) {
         doctorRepository.deleteById(id);
     }
 
-    @CachePut(value = "doctor", key = "#doctor.id")
+    //@CachePut(value = "doctor", key = "#doctor.id")
     public Doctor updateDoctor(Doctor doctor) {
         return doctorRepository.save(doctor);
     }
