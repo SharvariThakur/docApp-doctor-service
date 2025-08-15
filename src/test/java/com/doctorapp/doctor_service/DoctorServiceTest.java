@@ -42,7 +42,7 @@ class DoctorServiceTest {
 
         Doctor savedDoctor = doctorService.addDoctor(doctor);
 
-        assertThat(savedDoctor.getName()).isEqualTo("Dr. John");
+        assertThat(savedDoctor.getName()).isEqualTo("Dr. Pratik");
         verify(doctorRepository, times(1)).save(doctor);
     }
 
